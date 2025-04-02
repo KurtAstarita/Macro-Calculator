@@ -1,0 +1,45 @@
+#macro-calculator {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  width: 300px;
+  text-align: center;
+}
+
+#macro-calculator label,
+#macro-calculator input[type="number"],
+#macro-calculator button {
+  display: block;
+  margin: 5px auto;
+  width: 90%;
+}
+
+#macro-calculator label {
+  text-align: left;
+}
+
+#macro-calculator input[type="number"] {
+  text-align: center;
+}
+
+#macro-result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  #macro-calculator {
+    padding: 15px;
+  }
+
+  #macro-calculator label,
+  #macro-calculator input[type="number"],
+  #macro-calculator button {
+    width: 95%;
+  }
+
+  #macro-result {
+    font-size: 0.9em;
+  }
+}
